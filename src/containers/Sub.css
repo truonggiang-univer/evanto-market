@@ -1,0 +1,110 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 9999; }
+  
+  .contact-form {
+    padding: 50px 72px 72px;
+    width: 50%;
+    max-width: 675px;
+    border: 3px solid #f0f0f0;
+    background-color: white;
+    text-align: left;
+    margin-top: 10%;
+    position: relative;
+    font-family: "Roboto Condensed", sans-serif; }
+    @media all and (max-width: 980px) {
+      .contact-form {
+        width: 96%;
+        max-width: none;
+        padding: 25px; } }
+    @media all and (max-width: 640px) {
+      .contact-form {
+        width: 98%;
+        max-width: none;
+        padding: 20px; } }
+    .contact-form h3 {
+      font-size: 5.14286em;
+      font-weight: 300;
+      margin-bottom: 0; }
+      @media all and (max-width: 980px) {
+        .contact-form h3 {
+          font-size: 4em; } }
+      @media all and (max-width: 640px) {
+        .contact-form h3 {
+          font-size: 2.57143em; } }
+    .contact-form p {
+      font-size: 1.71429em;
+      font-weight: 300;
+      text-transform: uppercase;
+      margin-bottom: 45px; }
+      @media all and (max-width: 980px) {
+        .contact-form p {
+          font-size: 1.42857em; } }
+      @media all and (max-width: 640px) {
+        .contact-form p {
+          font-size: 1.28571em; } }
+      .contact-form p.error, .contact-form p.message {
+        text-transform: none;
+        font-size: 1em;
+        margin: 0;
+        margin-top: 7px;
+        font-family: "Open Sans", sans-serif; }
+      .contact-form p.error.active {
+        padding: 10px;
+        background: #fef0f0;
+        color: #ea0001;
+        border: 3px solid #f8b2b2; }
+    .contact-form .form {
+      float: none;
+      width: 100%;
+      padding-right: 0; }
+    .contact-form input, .contact-form textarea {
+      margin-bottom: 7px; }
+      .contact-form input.error, .contact-form textarea.error {
+        border: 3px solid #f8b2b2; }
+    .contact-form textarea {
+      height: 220px; }
+      @media all and (max-width: 640px) {
+        .contact-form textarea {
+          height: 150px; } }
+    .contact-form a {
+      position: absolute;
+      color: #ea4c0f;
+      top: 18px;
+      right: 18px; }
+      .contact-form a:hover {
+        opacity: .5; }
+  
+  .back {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 99; }
+    .back .container {
+      position: relative;
+      max-width: 1180px; }
+    .back a {
+      width: 50px;
+      height: 50px;
+      background: #ea4c0f;
+      text-align: center;
+      color: white;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      -webkit-transition: all 0.2s ease-in-out;
+      -moz-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out; }
+      .back a:hover {
+        bottom: -6px; }
+  
+  .anchor {
+    display: block;
+    height: 0px; }
+  

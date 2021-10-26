@@ -1,0 +1,45 @@
+.schedule ul {
+    list-style-type: none; }
+    .schedule ul li {
+      float: left;
+      background-color: #f0f0f0;
+      width: 33.333%;
+      max-width: 290px; }
+      .schedule ul li a {
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 1.71429em;
+        font-family: "Roboto Condensed", sans-serif;
+        line-height: 50px;
+        display: block;
+        padding: 0 30px; }
+        @media all and (max-width: 780px) {
+          .schedule ul li a {
+            font-size: 1.28571em;
+            padding: 0 20px;
+            line-height: 40px; } }
+  .schedule .day {
+    padding: 46px 20px;
+    border: 3px solid #f0f0f0; }
+
+    .ui-tabs {
+        padding: 0; }
+        .ui-tabs .ui-tabs-nav {
+          padding: 0;
+          margin-bottom: 10px; }
+          .ui-tabs .ui-tabs-nav li, .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+            padding: 0;
+            margin: 0; }
+          .ui-tabs .ui-tabs-nav li {
+            -webkit-transition: all 0.2s ease-in-out;
+            -moz-transition: all 0.2s ease-in-out;
+            -o-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out; }
+            .ui-tabs .ui-tabs-nav li.ui-state-active, .ui-tabs .ui-tabs-nav li.ui-state-active.ui-state-hover {
+              background-color: #ea4c0f;
+              color: white; }
+              .ui-tabs .ui-tabs-nav li.ui-state-active a, .ui-tabs .ui-tabs-nav li.ui-state-active.ui-state-hover a {
+                color: white; }
+            .ui-tabs .ui-tabs-nav li.ui-state-hover {
+              background-color: #fcd7c9;
+              color: white; }

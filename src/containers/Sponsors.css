@@ -1,0 +1,40 @@
+.sponsors .container {
+    position: relative; }
+  .sponsors .subtitle {
+    margin-bottom: 90px; }
+    .sponsors .subtitle a {
+      font-weight: bold;
+      color: #ea4c0f;
+      border-bottom: 2px solid #f8b49a;
+      text-decoration: none;
+      display: inline-block;
+      line-height: 1em; }
+      .sponsors .subtitle a:hover {
+        border-bottom: 2px solid #ea4c0f; }
+  .sponsors .slides {
+    border: 3px solid #f0f0f0;
+    padding: 60px;
+    position: relative; }
+  .sponsors ul {
+    list-style-type: none; }
+    .sponsors ul li {
+      display: inline-block;
+      text-align: center; }
+  .sponsors .flex-prev, .sponsors .flex-next {
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin-top: -35px;
+    line-height: 70px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 1.9em; }
+    .sponsors .flex-prev:hover, .sponsors .flex-next:hover {
+      background-color: #888888; }
+  .sponsors .flex-prev {
+    left: -32px; }
+  .sponsors .flex-next {
+    right: -32px; }

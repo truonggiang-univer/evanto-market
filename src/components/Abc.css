@@ -1,0 +1,11 @@
+.when, .where, .register-now{
+    font-size: 1.28571em;
+    font-weight: 300;
+    position: absolute;
+}
+
+.when strong, .where strong {
+    font-weight: bold;
+    color: #ea4c0f;
+    text-transform: uppercase;
+}

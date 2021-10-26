@@ -1,0 +1,13 @@
+.footer {
+    font-family: "Roboto Condensed", sans-serif; }
+    .footer .container {
+      padding: 40px 0;
+      text-align: center; }
+    .footer p {
+      font-size: 1.28571em;
+      color: #010101;
+      font-weight: 300; }
+    .footer a {
+      color: #ea4c0f;
+      text-decoration: none; }
+  

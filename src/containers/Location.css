@@ -1,0 +1,50 @@
+.location h2 {
+    margin-bottom: 0; }
+  .location h2, .location .subtitle {
+    padding: 0 60px; }
+  
+  .location {
+    padding-top: 124px;
+    position: relative;
+    background: black url("../images/observation-deck-381232_1920.jpg") no-repeat 50% 0 fixed;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("images/observation-deck-381232_1920.jpg") no-repeat 50% 0 fixed;
+    /* Saf4+, Chrome */
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/observation-deck-381232_1920.jpg") no-repeat 50% 0 fixed;
+    /* Chrome 10+, Saf5.1+ */
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/observation-deck-381232_1920.jpg") no-repeat 50% 0 fixed;
+    /* FF3.6+ */
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/observation-deck-381232_1920.jpg") no-repeat 50% 0 fixed;
+    /* IE10 */
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/observation-deck-381232_1920.jpg") no-repeat 50% 0 fixed;
+    /* Opera 11.10+ */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/observation-deck-381232_1920.jpg") no-repeat 50% 0 fixed;
+    /* W3C */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+    .location .container {
+      z-index: 10;
+      position: relative; }
+    .location h2, .location .subtitle {
+      color: white; }
+      .info {
+        background-color: white;
+        padding: 60px;
+        margin-top: 80px;
+        z-index: 2; }
+        .info p:last-child {
+          margin-bottom: 0; }
+          .maps{
+   
+            float: left;
+          width: 50%;
+        }
+
+        #map_canvas{
+          height: 328px; 
+        position: relative; overflow: hidden;
+      }
+  .maps img{
+    margin-bottom: 18px;
+  }

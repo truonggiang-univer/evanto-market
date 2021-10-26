@@ -1,0 +1,45 @@
+.social {
+    background-color: white;
+    color: white;
+    margin-top: -560px;
+    padding-top: 500px;
+    position: relative;
+    z-index: 5;
+    -webkit-clip-path: polygon(0% 100%, 100% 100%, 100% 40%, 0% 0%);
+    clip-path: polygon(0% 100%, 100% 100%, 100% 40%, 0% 0%); }
+    .social .container {
+      max-width: 100%;
+      padding-top: 114px;
+      padding-bottom: 64px;
+      background-color: #ea4c0f; }
+      @media all and (max-width: 1180px) {
+        .social .container {
+          width: 100%; } }
+    .social div {
+      padding: 0 60px;
+      max-width: 1180px; }
+    .social h2 {
+      margin-bottom: 0; }
+    .social .subtitle {
+      margin-bottom: 20px; }
+    .social input, .social button, .social a {
+      float: left;
+      height: 60px;
+      line-height: 60px; }
+    .social input, .social button {
+      border: none; }
+    .social input {
+      padding: 10px 20px;
+      font-family: "Roboto Condensed", sans-serif;
+      font-size: 18px; }
+    .social button {
+      cursor: pointer; }
+    .social button, .social a {
+      margin-right: 1px;
+      width: 60px;
+      text-align: center;
+      color: white;
+      background-color: black;
+      font-size: 24px; }
+      .social button:hover, .social a:hover {
+        color: #ea4c0f; }

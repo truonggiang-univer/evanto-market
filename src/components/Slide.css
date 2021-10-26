@@ -1,0 +1,9 @@
+.li_stl{
+    float: left; display: block; width: 311px
+}
+.ul_stl{
+    width: 800%; transition-duration: 0.6s; transform: translate3d(0px, 0px, 0px)
+}
+.vp_stl{
+  overflow: hidden; position: relative;
+}

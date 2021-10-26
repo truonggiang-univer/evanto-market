@@ -1,0 +1,33 @@
+.topics {
+    margin-top: -338px;
+    position: relative;
+    z-index: 10; }
+    @media all and (max-width: 940px) {
+      .topics {
+        margin-top: 0; } }
+    .topics .container {
+      background: white;
+      padding: 60px; }
+      .topics .container div {
+        width: 33.333%;
+        padding-right: 50px;
+        margin-top: 30px;
+        float: left; }
+        @media all and (max-width: 780px) {
+          .topics .container div {
+            width: 100%;
+            padding-right: 0; } }
+        .topics .container div h4, .topics .container div .fa {
+          color: #ea4c0f;
+          margin-bottom: 20px; }
+          @media all and (max-width: 780px) {
+            .topics .container div h4, .topics .container div .fa {
+              margin-bottom: 10px; } }
+        .topics .container div h4 {
+          font-size: 1.28571em;
+          font-weight: 300; }
+        .topics .container div p {
+          font-size: 1em; }
+    .topics p {
+      color: #888888;
+      font-size: 1.28571em; }

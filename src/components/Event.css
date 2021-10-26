@@ -1,0 +1,72 @@
+.event.extend .event-time span, .event.extended .event-time span {
+    width: 31px;
+    height: 31px;
+    top: 7px;
+    right: -16px;
+    line-height: 28px;
+    cursor: pointer; }
+  .event:last-child .event-info div {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0; }
+  .event .event-time, .event .event-info {
+    float: left; }
+  .event .event-time {
+    width: 25.57319%;
+    text-align: right;
+    padding-right: 33px;
+    position: relative; }
+    .event .event-time span {
+      display: block;
+      width: 11px;
+      height: 11px;
+      background-color: #ea4c0f;
+      position: absolute;
+      top: 17px;
+      right: -6px;
+      color: white;
+      text-align: center; }
+  .event .event-time, .event .event-info h4 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1.71429em;
+    font-weight: 300;
+    color: #ea4c0f;
+    line-height: 1.82em; }
+    @media all and (max-width: 780px) {
+      .event .event-time, .event .event-info h4 {
+        font-size: 1.28571em; } }
+  .event .event-info {
+    width: 74.42681%;
+    padding-left: 57px;
+    border-left: 1px solid #f0f0f0; }
+    .event .event-info h4 {
+      margin-bottom: 0; }
+      @media all and (max-width: 780px) {
+        .event .event-info h4 {
+          font-size: 1.57143em; } }
+      .event .event-info h4 a {
+        text-decoration: none;
+        color: #ea4c0f; }
+    .event .event-info div {
+      border-bottom: 1px solid #f0f0f0;
+      margin-bottom: 20px;
+      padding-bottom: 20px; }
+    .event .event-info img {
+      float: right;
+      padding: 10px; }
+  
+  .speaker {
+    text-transform: uppercase;
+    font-size: 1.28571em;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: normal;
+    font-weight: 300;
+    margin-bottom: 60px; }
+    .speaker strong {
+      text-transform: none;
+      font-size: 1.33333em;
+      font-weight: bold; }
+      @media all and (max-width: 780px) {
+        .speaker strong {
+          font-size: 1.22222em; } }
+  

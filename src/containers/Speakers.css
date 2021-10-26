@@ -1,0 +1,39 @@
+.featured {
+        background: #ea4c0f; }
+        .featured img {
+          float: left;
+          width: 100%; }
+        .featured h3, .featured .title {
+          line-height: 1.1em;
+          font-weight: 300; }
+        .featured h3 {
+          font-size: 2.57143em;
+          margin-bottom: 20px; }
+          @media all and (max-width: 1180px) {
+            .featured h3 {
+              font-size: 2.28571em; } }
+        .featured .title {
+          font-family: "Roboto Condensed", sans-serif;
+          font-size: 1.28571em;
+          margin-bottom: 40px; }
+          @media all and (max-width: 1180px) {
+            .featured .title {
+              font-size: 1.21429em;
+              margin-bottom: 20px; } }
+        .featured p {
+          font-size: 1.14286em; }
+          @media all and (max-width: 1180px) {
+            .featured p {
+              font-size: 1em; } }
+        .featured div {
+          float: left;
+          width: 50%;
+          padding: 20px 40px;
+          color: white;
+          font-weight: 300; }
+          @media all and (max-width: 980px) {
+            .featured div {
+              width: 100%; } }
+          .featured div.image {
+            padding: 0; }
+            
